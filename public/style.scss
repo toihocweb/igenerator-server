@@ -1,0 +1,31 @@
+$black: rgb(41, 41, 41);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1100px;
+  margin: auto;
+}
+
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pw-post-title,
+#d05a {
+  color: $black;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+#dc3d {
+  font-size: 40px;
+  color: rgb(117, 117, 117);
+}
