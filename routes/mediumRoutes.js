@@ -22,7 +22,7 @@ router.post("/", (req, res, next) => {
     if (!err) {
       return res.json({
         success: true,
-        link: `http://localhost:5000/public/${fileName}.html`,
+        link: `http://45.76.178.238:5000/public/${fileName}.html`,
       });
     }
     request(link)
